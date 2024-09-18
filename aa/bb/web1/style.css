@@ -1,0 +1,103 @@
+body 
+{
+    background-color: #FFFBFA; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; /* Clean and modern font */
+    color: #1D002E; 
+    margin: 0;
+}
+
+header 
+{
+    height: 90px;
+    background-color: #422A4C;
+    width: 100%;
+    color: #E8E4E8;
+}
+
+.inheader 
+{
+    display: flex ;
+    align-items: center;
+    padding-left: 10px;
+    color: #E8E4E8;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 40px;
+    color: #E8E4E8;
+}
+
+nav 
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #E8E4E8;
+}
+
+.navlist 
+{
+    padding: 0;
+    font-size: smaller;
+    text-align: center;
+    color: #E8E4E8;
+}
+
+.navitem 
+{
+    display: inline;
+    margin: 0 10px;
+    color: #E8E4E8;
+}
+ 
+ .left
+ {
+    background-color: #FCEDBE;
+    width: 365px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    font-size: medium;
+    color: #422A4B;
+ }
+
+ .center 
+ {
+    background-color: #FBECE6;
+    width: 365px;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 28%;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 136px;
+}
+
+.rows
+{
+    background-color: #FBECE6;
+}
+
+.tab
+{
+    display: flex; 
+    justify-content: center;
+}
+
+table
+{
+    width: 80%;
+}
+
+.tabtext
+{
+    text-align: center;
+    margin-top: 59px;
+}

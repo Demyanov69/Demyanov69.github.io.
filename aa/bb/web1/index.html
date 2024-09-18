@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Е мае</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body link="#220000" vlink="#DE9293" alink="#000028">
+        <header>  
+            <div class="inheader">
+                <img src="image.jpg" width="71" height="60" alt="Логотип">
+                <h1 class="title">Крутое название</h1>
+            </div>
+            <nav>
+                <ul class="navlist">
+                    <li class="navitem"><a href="../../oh.html">Гениальная шутка 1</a></li>
+                    <li class="navitem"><a href="about/eh.html">Гениальная шутка 2</a></li>
+                    <li class="navitem"><a href="../uh.html">Гениальная шутка 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="left">
+            <h2 style="text-align: center;"><u>Список гиперссылок</u></h2>
+            <ul>
+                <li><a href="http://www.kubsu.ru">Абсолютная гиперссылка на главную страницу kubsu</a></li>
+                <li><a href="https://www.kubsu.ru">Тоже самое, но в протоколе https</a></li>
+                <li>Картинка с подвохом...</li>
+                <a href="http://kubsu.ru"><img src="image.jpg" width="300" height="210" alt="Картинка" title="Она ведет на сайт Кубгу" ></a>
+                <li><a href="about/eh.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+                <li><a href="./index.html">Сокращенная ссылка на главную страницу </a></li>
+                <li><a href="#smth">Ссылка на фрагмент</a></li>
+                <li><a href="https://kubsu.ru/?id=123&name=Иван&age=25">3 параметрама в URL</a></li>
+                <li><a href="https://kubsu.ru/?id=123">Ссылка с параметром id</a></li>
+                <li> <a href="./index.html"> Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li> <a href="about/eh.html"> Относительная ссылка в каталоге about </a></li>
+                <li> <a href="../uh.html"> Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+                <li> <a href="../../oh.html"> На два уровня выше текущего</a></li>
+                <li>Это контекстная ссылка в тексте, которая ведет на <a href="https://www.kubsu.ru">этот</a> сайт</li>
+                <li><a href="https://www.kubsu.ru/ru/node/2650#zone-postscript">Cсылка на фрагмент страницы стороннего сайта</a></li>
+                <li>Ссылки из прямоугольных и круглых областей картинки...
+                    <br>В данном случае использавана круглая область.
+                    <br>Кликабелен левый верхний угол картинки</li>
+                <img src="image.jpg" usemap="#image-map" width="113" height="99" alt="Картинка">
+                <map name="image-map">
+                    <area shape="circle" coords="30,30,30" href="http://www.kubsu.ru" alt="Круглая область">
+                </map>           
+                <li><a href="">Пустая ссылка</a></li>
+                <li><a>Ссылка без href</a></li>
+                <li><a href="http://www.kubsu.ru" rel="nofollow">Ссылка без перехода для поисковиков</a></li>
+                <li><a href="http://www.kubsu.ru" rel="noindex">Запрещенная ссылка для индексации</a></li>
+                <li>Список ссылок:<ol>
+                    <li><a href="http://www.kubsu.ru" title="1">Ссылка 1</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/sveden" title="2">Ссылка 2</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/sveden/common" title="3">Ссылка 3</a></li>
+                </ol></li>    
+                <li><a href="ftp://user:password@example.com/path/to/file.txt">Ссылка на файл на сервере FTP с авторизацией</a></li> 
+            </ul>
+        </div>
+        
+        <h2 class="tabtext"><u>Таблица</u></h2>
+<div class="tab">
+    <table border="1">
+        <tr>
+            <th rowspan="2">Название</th>
+            <th colspan="3">Данные</th>
+        </tr>
+        <tr>
+            <th>Цвет</th>
+            <th>Вес</th>
+            <th>Количество</th>
+        </tr>
+        <tr class="rows">
+            <td>Морковь</td>
+            <td>Данные </td>
+            <td>Данные </td>
+            <td>Данные </td>
+        </tr>
+        <tr>
+            <td>Картофель</td>
+            <td>Данные </td>
+            <td>Данные </td>
+            <td>Данные </td>
+        </tr>
+        <tr class="rows">
+            <td>Помидор</td>
+            <td>Данные </td>
+            <td>Данные </td>
+            <td>Данные </td>
+        </tr>
+        <tr>
+            <td>Огурец</td>
+            <td>Данные </td>
+            <td>Данные </td>
+            <td>Данные </td>
+        </tr>
+        <tr class="rows">
+            <td>Капуста</td>
+            <td>Данные </td>
+            <td>Данные </td>
+            <td>Данные </td>
+        </tr>
+        <tr>
+            <td>Перец</td>
+            <td>Данные </td>
+            <td>Данные </td>
+            <td>Данные </td>
+        </tr>
+    </table>
+</div>
+
+        <div class="center">
+            <form action="/" method="POST">
+                <h2>Форма</h2>
+                <div id="smth">
+                <label>ФИО:</label>
+                </div>
+                <input type="text" name="fio" required><br><br>
+            
+                <label>Телефон:</label>
+                <input type="tel" name="phone" required><br><br>
+            
+                <label>e-mail:</label>
+                <input type="email" name="email" required><br><br>
+            
+                <label>Дата рождения:</label>
+                <input type="date" name="dob" required><br><br>
+            
+                <label>Пол:</label><br>
+                <input type="radio" name="gender" value="male">
+                <label>Мужской</label><br>
+                <input type="radio" name="gender" value="female">
+                <label>Женский</label><br><br>
+            
+                <label>Любимый язык программирования:</label><br>
+                <select name="language" multiple>
+                    <option value="pascal">Pascal</option>
+                    <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="haskell">Haskell</option>
+                    <option value="clojure">Clojure</option>
+                    <option value="prolog">Prolog</option>
+                    <option value="scala">Scala</option>
+                </select><br><br>
+            
+                <label>Биография:</label><br>
+                <textarea name="bio"></textarea><br><br>
+            
+                <input type="checkbox" name="contract" value="agree">
+                <label>С контрактом ознакомлен(а)</label><br><br>
+            
+                <input type="submit" value="Сохранить">
+            </form>
+        </div>
+    
+            <footer>
+                <p>&copy; 2024 Крутое название </p>
+            </footer>
+    
+        </body>
+</html>
